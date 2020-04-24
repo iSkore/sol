@@ -2,6 +2,9 @@
 
 The latest in our solar system
 
+[![ESLint Test](https://github.com/iSkore/sol/workflows/ESLint%20Test/badge.svg)](https://github.com/iSkore/sol/actions)
+[![Generate GitHub Pages Example](https://github.com/iSkore/sol/workflows/Generate%20GitHub%20Pages%20Example/badge.svg)](https://github.com/iSkore/sol/actions)
+
 ## Project setup
 ```
 npm install
