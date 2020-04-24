@@ -1,0 +1,52 @@
+{
+	"appbar": {
+		"show": true,
+		"clipped": true,
+		"dense": true
+	},
+	"sidebar": {
+		"model": true,
+		"type": "",
+		"clipped": true,
+		"floating": false,
+		"mini": false
+	},
+	"footer": {
+		"inset": false,
+		"height": 26
+	},
+	"sources": {
+		"soho": [
+			{
+				"name": "LASCO/C2",
+				"src": "https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif",
+				"attribution": "https://soho.nascom.nasa.gov/"
+			},
+			{
+				"name": "LASCO/C3",
+				"src": "https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif",
+				"attribution": "https://soho.nascom.nasa.gov/"
+			},
+			{
+				"name": "EIT 304A",
+				"src": "https://soho.nascom.nasa.gov/data/LATEST/current_eit_304.gif",
+				"attribution": "https://soho.nascom.nasa.gov/"
+			},
+			{
+				"name": "EIT 195A",
+				"src": "https://soho.nascom.nasa.gov/data/LATEST/current_eit_195.gif",
+				"attribution": "https://soho.nascom.nasa.gov/"
+			},
+			{
+				"name": "EIT 171A",
+				"src": "https://soho.nascom.nasa.gov/data/LATEST/current_eit_171.gif",
+				"attribution": "https://soho.nascom.nasa.gov/"
+			},
+			{
+				"name": "EIT 284A",
+				"src": "https://soho.nascom.nasa.gov/data/LATEST/current_eit_284.gif",
+				"attribution": "https://soho.nascom.nasa.gov/"
+			}
+		]
+	}
+}
