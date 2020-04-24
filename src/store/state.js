@@ -1,5 +1,6 @@
 export default {
 	appbar: {
+		show: true,
 		clipped: true,
 		dense: true
 	},
@@ -13,5 +14,8 @@ export default {
 	footer: {
 		inset: false,
 		height: 26
-	}
+	},
+	fullpage: false,
+	isMobile: false,
+	sources: {}
 };

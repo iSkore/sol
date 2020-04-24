@@ -1,11 +1,11 @@
 <template>
-	<v-container>
-		<v-flex xs12>
+	<v-container fluid>
+		<v-card>
 			<v-list
 				v-for="(val, key) in data"
 				:key="key"
 			>
-				<v-subheader>{{ key }}</v-subheader>
+				<v-card-title>{{ key }}:</v-card-title>
 
 				<v-list-item-group color="primary">
 					<v-list-item
@@ -22,7 +22,7 @@
 					</v-list-item>
 				</v-list-item-group>
 			</v-list>
-		</v-flex>
+		</v-card>
 	</v-container>
 </template>
 

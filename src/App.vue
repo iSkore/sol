@@ -4,7 +4,7 @@
 		<Toolbar/>
 
 		<v-content>
-			<v-container fluid ma-0 pa-0>
+			<v-container fluid>
 				<router-view></router-view>
 			</v-container>
 		</v-content>
@@ -36,6 +36,8 @@
 		},
 		async mounted() {
 			await this.getConfig();
+
+			this.$store.state.isMobile = window.innerWidth < 600;
 		},
 		methods: {
 			...mapActions( [ 'getConfig' ] )
@@ -44,7 +46,4 @@
 </script>
 
 <style>
-	html, body {
-		overflow: hidden;
-	}
 </style>

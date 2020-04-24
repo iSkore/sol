@@ -27,6 +27,19 @@
 			:width="footer.height"
 			class="mr-5"
 			tile
+			icon
+			x-small
+			aria-label="fullscreen"
+			@click.stop="fullPage"
+		>
+			<v-icon>mdi-arrow-expand-all</v-icon>
+		</v-btn>
+
+		<v-btn
+			:height="footer.height"
+			:width="footer.height"
+			class="mr-5"
+			tile
 			x-small
 			aria-label="app-version"
 			:href="repoUrl"
@@ -39,8 +52,8 @@
 </template>
 
 <script>
-	import { mapState } from 'vuex';
-	import moment       from 'moment';
+	import { mapMutations, mapState } from 'vuex';
+	import moment                     from 'moment';
 
 	export default {
 		name: 'Footer',
@@ -62,6 +75,9 @@
 		},
 		computed: {
 			...mapState( [ 'footer' ] )
+		},
+		methods: {
+			...mapMutations( [ 'fullPage' ] )
 		}
 	};
 </script>

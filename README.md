@@ -1,4 +1,6 @@
-# template-vue-dashboard
+# sol
+
+The latest in our solar system
 
 ## Project setup
 ```
